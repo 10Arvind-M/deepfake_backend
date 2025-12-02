@@ -1,11 +1,11 @@
 fastapi
 uvicorn
-uvicorn[standard]
 transformers
-torch --index-url https://download.pytorch.org/whl/cpu
-opencv-python-headless
+python-multipart
 pillow
 numpy
 pandas
-python-multipart
 requests
+opencv-python-headless
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
