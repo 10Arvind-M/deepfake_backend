@@ -1,2 +1,2 @@
-run = "uvicorn inference_server:app --host 0.0.0.0 --port 8000"
+run = "python3 -m uvicorn inference_server:app --host 0.0.0.0 --port 8000"
 language = "python"
